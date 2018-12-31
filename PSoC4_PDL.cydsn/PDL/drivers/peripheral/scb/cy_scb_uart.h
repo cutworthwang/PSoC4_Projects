@@ -701,8 +701,9 @@ __STATIC_INLINE void Cy_SCB_UART_RegisterCallback(CySCB_Type const *base, cy_cb_
 * \addtogroup group_scb_uart_low_power_functions
 * \{
 */
-cy_en_syspm_status_t Cy_SCB_UART_DeepSleepCallback(cy_stc_syspm_callback_params_t *callbackParams);
-cy_en_syspm_status_t Cy_SCB_UART_HibernateCallback(cy_stc_syspm_callback_params_t *callbackParams);
+
+//cy_en_syspm_status_t Cy_SCB_UART_DeepSleepCallback(cy_stc_syspm_callback_params_t *callbackParams);
+//cy_en_syspm_status_t Cy_SCB_UART_HibernateCallback(cy_stc_syspm_callback_params_t *callbackParams);
 /** \} group_scb_uart_low_power_functions */
 
 

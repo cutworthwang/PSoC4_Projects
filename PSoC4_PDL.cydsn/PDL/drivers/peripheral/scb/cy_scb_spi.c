@@ -241,7 +241,7 @@ void Cy_SCB_SPI_Disable(CySCB_Type *base, cy_stc_scb_spi_context_t *context)
     }
 }
 
-
+#if 0
 /*******************************************************************************
 * Function Name: Cy_SCB_SPI_DeepSleepCallback
 ****************************************************************************//**
@@ -531,7 +531,7 @@ cy_en_syspm_status_t Cy_SCB_SPI_HibernateCallback(cy_stc_syspm_callback_params_t
 
     return (retStatus);
 }
-
+#endif
 
 /************************* High-Level Functions ********************************
 * The following functions are considered high-level. They provide the layer of

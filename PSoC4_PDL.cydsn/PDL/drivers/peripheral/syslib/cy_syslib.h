@@ -876,7 +876,7 @@ void Cy_SysLib_ExitCriticalSection(uint32_t savedIntrStatus);
 *******************************************************************************/
 __STATIC_INLINE uint8_t Cy_SysLib_GetDeviceRevision(void)
 {
-    return ((SFLASH->SI_REVISION_ID == 0UL) ? CY_SYSLIB_DEVICE_REV_0A : SFLASH->SI_REVISION_ID);
+    return 0;//((SFLASH->SI_REVISION_ID == 0UL) ? CY_SYSLIB_DEVICE_REV_0A : SFLASH->SI_REVISION_ID);
 }
 
 
@@ -891,7 +891,7 @@ __STATIC_INLINE uint8_t Cy_SysLib_GetDeviceRevision(void)
 *******************************************************************************/
 __STATIC_INLINE uint16_t Cy_SysLib_GetDevice(void)
 {
-    return ((SFLASH->FAMILY_ID == 0UL) ? CY_SYSLIB_DEVICE_PSOC6ABLE2 : SFLASH->FAMILY_ID);
+    return 0;//((SFLASH->FAMILY_ID == 0UL) ? CY_SYSLIB_DEVICE_PSOC6ABLE2 : SFLASH->FAMILY_ID);
 }
 
 

@@ -225,7 +225,7 @@ void Cy_SCB_I2C_Disable(CySCB_Type *base, cy_stc_scb_i2c_context_t *context)
     context->slaveStatus  = 0UL;
 }
 
-
+#if 0
 /*******************************************************************************
 * Function Name: Cy_SCB_I2C_DeepSleepCallback
 ****************************************************************************//**
@@ -495,7 +495,7 @@ cy_en_syspm_status_t Cy_SCB_I2C_HibernateCallback(cy_stc_syspm_callback_params_t
 
     return (retStatus);
 }
-
+#endif
 
 /*******************************************************************************
 * Function Name: Cy_SCB_I2C_SetDataRate

@@ -773,8 +773,8 @@ __STATIC_INLINE void Cy_SCB_I2C_RegisterAddrCallback (CySCB_Type const *base, cy
 * \addtogroup group_scb_i2c_low_power_functions
 * \{
 */
-cy_en_syspm_status_t Cy_SCB_I2C_DeepSleepCallback(cy_stc_syspm_callback_params_t *callbackParams);
-cy_en_syspm_status_t Cy_SCB_I2C_HibernateCallback(cy_stc_syspm_callback_params_t *callbackParams);
+//cy_en_syspm_status_t Cy_SCB_I2C_DeepSleepCallback(cy_stc_syspm_callback_params_t *callbackParams);
+//cy_en_syspm_status_t Cy_SCB_I2C_HibernateCallback(cy_stc_syspm_callback_params_t *callbackParams);
 /** \} group_scb_i2c_low_power_functions */
 
 

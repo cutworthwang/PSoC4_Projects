@@ -102,7 +102,7 @@
 #include <stdbool.h>
 #include "cy_device_headers.h"
 #include "syslib/cy_syslib.h"
-#include "syspm/cy_syspm.h"
+//#include "syspm/cy_syspm.h"
 
 #ifndef CY_IP_MXSCB
     #error "The SCB driver is not supported on this device"

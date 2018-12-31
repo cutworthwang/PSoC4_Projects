@@ -259,7 +259,7 @@ void Cy_SCB_UART_Disable(CySCB_Type *base, cy_stc_scb_uart_context_t *context)
     }
 }
 
-
+#if 0
 /*******************************************************************************
 * Function Name: Cy_SCB_UART_DeepSleepCallback
 ****************************************************************************//**
@@ -389,7 +389,7 @@ cy_en_syspm_status_t Cy_SCB_UART_HibernateCallback(cy_stc_syspm_callback_params_
 {
     return Cy_SCB_UART_DeepSleepCallback(callbackParams);
 }
-
+#endif
 
 /************************* High-Level Functions ********************************
 * The following functions are considered high-level. They provide the layer of

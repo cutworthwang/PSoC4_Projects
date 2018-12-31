@@ -679,8 +679,8 @@ __STATIC_INLINE void Cy_SCB_SPI_RegisterCallback(CySCB_Type const *base, cy_cb_s
 * \addtogroup group_scb_spi_low_power_functions
 * \{
 */
-cy_en_syspm_status_t Cy_SCB_SPI_DeepSleepCallback(cy_stc_syspm_callback_params_t *callbackParams);
-cy_en_syspm_status_t Cy_SCB_SPI_HibernateCallback(cy_stc_syspm_callback_params_t *callbackParams);
+//cy_en_syspm_status_t Cy_SCB_SPI_DeepSleepCallback(cy_stc_syspm_callback_params_t *callbackParams);
+//cy_en_syspm_status_t Cy_SCB_SPI_HibernateCallback(cy_stc_syspm_callback_params_t *callbackParams);
 /** \} group_scb_spi_low_power_functions */
 
 

@@ -204,7 +204,7 @@ void Cy_SCB_EZI2C_Disable(CySCB_Type *base, cy_stc_scb_ezi2c_context_t *context)
     context->state  = CY_SCB_EZI2C_STATE_IDLE;
 }
 
-
+#if 0
 /*******************************************************************************
 * Function Name: Cy_SCB_EZI2C_DeepSleepCallback
 ****************************************************************************//**
@@ -474,7 +474,7 @@ cy_en_syspm_status_t Cy_SCB_EZI2C_HibernateCallback(cy_stc_syspm_callback_params
 
     return (retStatus);
 }
-
+#endif
 
 /*******************************************************************************
 * Function Name: Cy_SCB_EZI2C_GetActivity
